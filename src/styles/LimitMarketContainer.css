@@ -1,0 +1,8 @@
+.LimitMarketContainer {
+  border: 1px solid red;
+  display: absolute;
+  width: 530px;
+  height: 250px;
+  /* max-width: 500px;
+  max-height: 250px; */
+}
