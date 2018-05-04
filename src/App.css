@@ -1,3 +1,11 @@
+:root {
+  --dark-gray: #21262C;
+  --gray: #272D34;
+  --lightgray: #445588;
+  --border-black: #151A1F;
+  --off-white: #CCCCCC;
+}
+
 .App {
   position: absolute;
   width: 100%;
