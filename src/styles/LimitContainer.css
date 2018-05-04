@@ -1,0 +1,137 @@
+.LimitContainer {
+  display: flex;
+  /* height: 100%; */
+}
+
+.limitBuy-container {
+  /* border: 1px solid white; */
+  /* flex-grow: 1; */
+  width: 50%;
+  color: var(--gray-font-color);
+  padding: 5px;
+}
+
+.limitBuy-header {
+  color: var(--off-white);
+}
+
+.limitBuy-header h5 {
+  margin: 0;
+  padding: 0
+}
+
+.left {
+  width: 80px;
+}
+
+.right {
+  width: 100%;
+  /* border: 1px solid yellow */
+}
+
+.price-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.price-row-left {
+  font-size: 14px;
+}
+
+.price-row-right input {
+  width: 100%;
+  margin-right: 5px;
+  height: 25px;
+  background-color: #414C54;
+  border: none;
+  color: white;
+}
+
+.price-row-right input:hover {
+  border: 1px solid orange;
+}
+
+.amount-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.amount-row-left {
+  font-size: 14px;
+}
+
+.amount-row-right input {
+  width: 100%;
+  margin-right: 5px;
+  height: 25px;
+  background-color: #414C54;
+  border: none;
+  color: white;
+}
+
+.amount-row-right input:hover {
+  border: 1px solid orange;
+}
+
+.percent-select {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.percent-select-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.percent-select span{
+  border: 1px dashed var(--lightgray);
+  /* flex-grow: 1; */
+  text-align: center;
+  padding: 5px;
+}
+
+.percent-select span:hover{
+  border: 1px dashed orange;
+  color: orange;
+}
+
+.total{
+  display: flex;
+  flex-flow: row;
+  margin-top: 5px;
+}
+
+.total-left {
+  font-size: 14px;
+}
+
+.total-right {
+  color: white;
+}
+
+.button {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: #70A700;
+  color: var(--off-white);
+  height: 40px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  color: white;
+}
+
+.limitSell-container {
+  border: 1px solid white;
+  flex-grow: 1;
+  color: var(--gray-font-color);
+}

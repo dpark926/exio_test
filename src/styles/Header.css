@@ -1,7 +1,7 @@
 .header-container {
   display: flex;
   flex-flow: row;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   background-color: var(--dark-gray);
 }
 
@@ -9,4 +9,8 @@
   border: 1px solid var(--border-black);
   padding: 10px 20px;
   color: var(--off-white);
+}
+
+.active {
+  color: orange;
 }
